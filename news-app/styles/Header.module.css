@@ -1,0 +1,30 @@
+.title a, 
+.title span {
+    color: #000;
+    text-decoration: none;
+    font-family: 'Uncial Antiqua', cursive;
+  }
+  
+  .title a:hover,
+  .title a:focus,
+  .title a:active {
+    text-decoration: underline;
+  }
+  
+  .title {
+    margin: 0;
+    line-height: 1.15;
+    font-size: 3.5rem;
+  }
+  
+  .title,
+  .description {
+    text-align: center;
+  }
+  
+  .description {
+    line-height: 1.5;
+    font-size: 1.5rem;
+  }
+
+@import url(https://fonts.googleapis.com/css?family=Uncial+Antiqua:regular);
