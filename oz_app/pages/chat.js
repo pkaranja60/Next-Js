@@ -1,9 +1,12 @@
+import firebase from '../firebase'
+import Sidebar from '../components/Sidebar';
+
 function chat() {
     return (
-        <div>
-            
-        </div>
-    )
+        <>
+         <Sidebar />
+        </>
+         )
 }
 
 export default chat
